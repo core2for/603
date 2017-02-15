@@ -1,0 +1,172 @@
+/*body { margin:0; padding:0; font-size:14px; line-height:20px; font-family:"ËÎÌו" }*/
+*{
+	margin:0;
+	padding:0;
+}
+
+#container{
+	width:980px;
+	height: 680px;
+	margin:0 auto;
+}
+#header hr{
+	border:2px solid #5cc8af;
+	margin-bottom:100px;
+}
+
+#login{
+	width:500px;
+	margin:0 auto;
+	border:1px solid #ccc;
+	padding:10px;
+	margin-bottom:273px;
+}
+#login h1{
+	background:url(../images/login_lock.gif) no-repeat;
+	font-size:14px;
+	height:22px;
+	line-height:22px;
+	color:#9b1525;
+	text-indent:2em;
+}
+#login table{
+	width:100%;
+	margin-left: 77px;
+}
+#login td{
+	padding:10px 5px;
+}
+
+#login table tr:first-child>td:first-child,#login table tr:nth-child(2)>td:first-child{
+	text-align:right;
+}
+#login table tr:last-child>td{
+	text-align:center;
+}
+input[type=text],input[type=password]{
+	width:150px;
+}
+.align-right{
+	text-align:right;
+}
+.align-center{
+	text-align:center;
+}
+#footer { border-top:2px solid #ccc; line-height:40px; text-align:center; }
+
+#register{
+	border:2px solid #ccc;
+	width:600px;
+	margin:0 auto;
+	margin-bottom:170px;
+	/* padding:0 3px; */
+	box-sizing:border-box;
+}
+#register h1{
+	background:#e7f6e5;
+	text-indent:3em;
+	height:40px;
+	line-height:40px;
+	margin:0px;
+	font-size:20px;
+	color:#999;
+}
+#regInfo{
+	width:100%;
+	background:url(../images/step_arrow.gif) center center no-repeat;
+	margin-top: -13px;
+}
+}
+
+
+#reginfo p{
+	display:inline-block;
+	height:25px;
+	line-height:25px;
+	width:288px;
+	text-align:center;
+}
+#regInfo p:first-child{
+	background:#ffe0a3;
+	width: 286px;
+	margin-top: 13px;
+	text-align:center;
+}
+#regInfo p:last-child{
+	background:#dfdfdf;
+	margin-left:310px;
+	margin-top: -18px;
+	text-align: center;
+}
+
+#register table{
+	width:100%;
+}
+#register table tr td:first-child{
+	text-align:right;
+}
+#register table tr:last-child td{
+	text-align:center;
+}
+#register td{
+	padding:10px 5px;
+	width:160px;
+}
+#submit {
+	display: block;
+}
+#button_sub {
+    margin-left: 153px
+}
+/*
+#regInfo{
+	width:100%;
+	border-collapse:collapse;
+}
+#regInfo{
+	padding:0;
+}
+#reginfo td:first-child{
+	background:#ffe0a3;
+	width:50%;
+	text-align:center;
+}
+
+#reginfo td:nth-child(2){
+	width:24px;
+	height:25px;
+	background:url(../images/step_arrow.gif);
+}
+
+#regInfo td:last-child{
+	background:#dfdfdf;
+	width:50%;
+	text-align:center;
+	
+}
+*/
+#order {
+	    margin-bottom: 270px;
+}
+#order table{
+	width:100%;
+	margin-top:-100px;
+	border-collapse:collapse
+}
+#order th{
+	background:yellow;
+}
+#order tr{
+	height:30px;
+}
+#order td{
+	border-bottom:1px solid #ccc;
+	text-align: center;
+}
+
+#page{
+	text-align:center;
+	height:40px;
+	line-height:40px;
+}
+	
