@@ -1,0 +1,5 @@
+问题一：当出现提交或者推送冲突
+	使用git pull [<options>] [<repository> [<refspec>...]]命令解决冲突后在提交或推送（git pull -help查看详细介绍）
+问题二：删除github上的某个文件或者文件夹
+	A、在本地上先删除然后add，再commit，最后push。
+	
